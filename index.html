@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>前端</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./css/mui.min.css">
+	<link rel="stylesheet" href="./css/my.css">
+</head>
+<body style="margin-bottom: 80px">
+	<header class="mui-bar mui-bar-nav">
+		<a class="mui-icon mui-icon-person-filled" style="margin-left: 1%;color: #f3f3f3;"></a>
+			<div class="mui-content-padded" style="margin: 5px;">
+				<div class="mui-input-row mui-search" style="width:70%;margin-left: 15%;margin-top: -45px;">
+					<input type="search" class="mui-input-clear" style="background-color: #fff;" placeholder="请输入游戏名视频名">
+				</div>
+
+			</div>
+		<a class="mui-icon mui-icon-videocam mui-pull-right" style="margin-right: 1%;margin-top: -50px;color: #f3f3f3;"></a>	
+	</header>
+<!-- 轮播开始 -->
+<div id="slider" class="mui-slider mt40p">
+	<div class="mui-slider-group mui-slider-loop">
+		<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+		<div class="mui-slider-item mui-slider-item-duplicate">
+			<a href="#">
+				<img src="./image/2017-08-07_114348.jpg">
+				<p class="mui-slider-title">静静看这世界</p>
+			</a>
+		</div>
+		<!-- 第一张 -->
+		<div class="mui-slider-item">
+			<a href="#">
+				<img src="./image/2017-08-07_114348.jpg">
+				<p class="mui-slider-title">静静看这世界</p>
+			</a>
+		</div>
+		<!-- 第二张 -->
+		<div class="mui-slider-item">
+			<a href="#">
+				<img src="./image/2017-08-07_114620.jpg">
+				<p class="mui-slider-title">静静看这世界</p>
+			</a>
+		</div>
+		<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+		<div class="mui-slider-item mui-slider-item-duplicate">
+			<a href="#">
+				<img src="./image/2017-08-07_114348.jpg">
+				<p class="mui-slider-title">静静看这世界</p>
+			</a>
+		</div>
+	</div>
+	<div class="mui-slider-indicator">
+		<div class="mui-indicator mui-active"></div>
+		<div class="mui-indicator"></div>
+	</div>
+</div>
+<!-- 轮播结束 -->
+<ul class="mui-table-view mt2">
+	<div class="mui-table-view-cell mui-media zhuanlan"><font size="1">热门游戏</font><p class='mui-pull-right mui-navigate-right'></p></div>
+	<div class="mui-content">
+		    <div class="mui-slider">
+		        <div class="mui-slider-group mui-slider-loop">
+		        	<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一个图文表格) -->
+		            <div class="mui-slider-item mui-slider-item-duplicate">
+		                 <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body">王者荣耀</div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body">球球大作战</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body">我的世界</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body">皇室战争</div></a></li>
+
+		                </ul>
+		            </div>
+		            <div class="mui-slider-item">
+		                <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body">王者荣耀</div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body">球球大作战</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body">我的世界</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body">皇室战争</div></a></li>
+
+		                </ul>
+		            </div>
+		            <div class="mui-slider-item">
+		                <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body">王者荣耀</div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body">球球大作战</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body">我的世界</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body">皇室战争</div></a></li>
+
+		                </ul>
+		            </div>
+		            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一个图文表格) -->
+		            <div class="mui-slider-item mui-slider-item-duplicate">
+		                <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body"><font size="2">王者荣耀</font></div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body"><font size="2">球球大作战</font></div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body"><font size="2">我的世界</font></div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body"><font size="2">皇室战争</font></div></a></li>
+
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+</ul>
+<!--猜你喜欢开始 -->
+<ul class="mui-table-view mt2">
+	<div class="mui-table-view-cell mui-media zhuanlan"><font size="1">猜你喜欢</font><p class='mui-pull-right mui-navigate-right'></p></div>
+	<div class="mui-content" style="background-color:#fff;margin-top: -25px">
+	    <ul class="mui-table-view mui-grid-view">
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#">
+	                <img class="mui-media-object love" src="./image/111.jpg">
+	                <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>1.26万<span class="ml45">28:45</span></p>
+	                <div class="mui-media-body"><font size="2"><<王者荣耀>>德稳解说</font></div></a></li>
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#">
+	                <img class="mui-media-object love" src="./image/2017-08-08_111409.jpg">
+	                <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>1.26万<span class="ml45">28:45</span></p>
+	                <div class="mui-media-body"><font size="2"><<王者荣耀>>元芳五杀</font></div></a></li>
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#"><img class="mui-media-object love" src="./image/2222.jpg">
+	            <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>1.26万<span class="ml45">28:45</span></p>
+	                <div class="mui-media-body"><font size="2">厉害了我的哥</font></div></a></li>
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#">
+	                <img class="mui-media-object love" src="./image/2017-08-08_111613.jpg">
+	                <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>1.26万<span class="ml45">28:45</span></p>
+	                <div class="mui-media-body"><font size="2">静静看这世界</font></div></a></li>
+	    </ul>    
+</div>
+</ul>
+<!--猜你喜欢结束 -->
+<!--世界推荐开始 -->
+<ul class="mui-table-view mt2">
+	<div class="mui-table-view-cell mui-media zhuanlan"><font size="1">世界推荐</font><p class='mui-pull-right mui-navigate-right'></p></div>
+	<div class="mui-content" style="background-color:#fff;margin-top: -25px">
+	    <ul class="mui-table-view mui-grid-view">
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#">
+	                <img class="mui-media-object love" src="./image/111.jpg">
+	                <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>1.26万<span class="ml45">28:45</span></p>
+	                <div class="mui-media-body"><font size="2"><<王者荣耀>>德稳解说</font></div></a></li>
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#">
+	                <img class="mui-media-object love" src="./image/2017-08-08_111409.jpg">
+	                <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>4.9万<span class="ml45">15:01</span></p>
+	                <div class="mui-media-body"><font size="2"><<王者荣耀>>元芳五杀</font></div></a></li>
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#"><img class="mui-media-object love" src="./image/2222.jpg">
+	            <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>5.9万<span class="ml45">17:34</span></p>
+	                <div class="mui-media-body"><font size="2">厉害了我的哥</font></div></a></li>
+	        <li class="mui-table-view-cell mui-media mui-col-xs-6">
+	            <a href="#">
+	                <img class="mui-media-object love" src="./image/2017-08-08_111613.jpg">
+	                <p class="mui-slider-titles"><span class="mui-icon mui-icon-eye" style="font-size:17px;"></span>2万<span class="ml45">08:15</span></p>
+	                <div class="mui-media-body"><font size="2">静静看这世界</font></div></a></li>
+	    </ul>    
+</div>
+</ul>
+<!--世界推荐结束 -->
+<!-- 热门直播开始 -->
+<ul class="mui-table-view mt2">
+	<div class="mui-table-view-cell mui-media zhuanlan"><font size="1">热门解说</font><p class='mui-pull-right mui-navigate-right'></p></div>
+	<div class="mui-content">
+		    <div class="mui-slider">
+		        <div class="mui-slider-group mui-slider-loop">
+		        	<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一个图文表格) -->
+		            <div class="mui-slider-item mui-slider-item-duplicate">
+		                 <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body">小智</div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body">若风</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body">我的世界</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body">皇室战争</div></a></li>
+
+		                </ul>
+		            </div>
+		            <div class="mui-slider-item">
+		                <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body">王者荣耀</div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body">球球大作战</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body">我的世界</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body">皇室战争</div></a></li>
+
+		                </ul>
+		            </div>
+		            <div class="mui-slider-item">
+		                <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body">王者荣耀</div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body">球球大作战</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body">我的世界</div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body">皇室战争</div></a></li>
+
+		                </ul>
+		            </div>
+		            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一个图文表格) -->
+		            <div class="mui-slider-item mui-slider-item-duplicate">
+		                <ul class="mui-table-view mui-grid-view">
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (7).jpg">
+		                            <div class="mui-media-body"><font size="2">王者荣耀</font></div></a></li>
+		                    <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (2).jpg">
+		                            <div class="mui-media-body"><font size="2">球球大作战</font></div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg.jpg">
+		                            <div class="mui-media-body"><font size="2">我的世界</font></div></a></li>
+		                     <li class="mui-table-view-cell mui-media mui-col-xs-3"><a href="#"><img class="huadong" src="./image/timg (3).jpg">
+		                            <div class="mui-media-body"><font size="2">皇室战争</font></div></a></li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+</ul>
+<!-- 热门直播结束 -->
+<nav class="mui-bar mui-bar-tab">
+      <a id="defaultTab" class="mui-tab-item mui-active" href="./index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">首页</span>
+       </a>
+        <a id="defaultTab" class="mui-tab-item" href="./index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">游戏圈</span>
+       </a>
+        <a id="defaultTab" class="mui-tab-item" href="./index.html">
+            <span class="mui-icon mui-icon-home"></span>
+            <span class="mui-tab-label">发现</span>
+       </a>
+      <a class="mui-tab-item" href="templete/home2.html">
+            <span class="mui-icon mui-icon-email"></span>  
+        	<span class="mui-tab-label">赛事</span>  
+       </a>
+    </nav>
+</body>
+<script src="./js/mui.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script>
+function me(){
+	window.location.href = 'user.html';
+}
+var gallery = mui('#slider');
+gallery.slider({
+  interval:4000//自动轮播周期，若为0则不自动播放，默认为0；
+});
+</script>
+</html>
